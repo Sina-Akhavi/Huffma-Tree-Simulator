@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Document</title>
+  <script src="node_modules/cytoscape/dist/cytoscape.min.js"></script>
+</head>
+<body>
+  
+  <div class="navbar">
+    <h1>Huffman Tree Visualization</p>
+    
+  </div>
+
+  <div class="sub-navbar">
+    <button id="reset-btn">reset</button>
+    <button id="build-btn">build tree</button>
+    <label for="text">Text</label>
+    <input type="text" name="text" id="text">
+  </div>
+
+<div>
+  <div id="cy" style="float: left;"></div>
+
+  <table id="code-table" style="margin-top: 8%;">
+    <tr>
+      <th>character</th>
+      <th>frequency</th>
+      <th>code</th>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>150</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>b</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>c</td>
+      <td>20</td>
+      <td>11</td>
+    </tr>
+  </table>
+
+</div>
+
+
+</body>
+
+<script src="main.js"></script>
+</html>
